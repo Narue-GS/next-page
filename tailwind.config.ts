@@ -13,7 +13,18 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        detail: 'rgb(var(--detail-color) / 1)',
+      },
+      keyframes: {
+        open: {
+          '0%, 100%': { 
+            width: '30%',
+          },
+        }
+      }
     },
+    
   },
   plugins: [],
 }
